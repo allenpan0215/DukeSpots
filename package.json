@@ -1,4 +1,5 @@
 {
+  "homepage": "http://allenpan0215.github.io/DukeSpots",
   "name": "duke-spots",
   "version": "1.0.0",
   "description": "react project",
@@ -6,8 +7,10 @@
   "engine": {
     "node": "10.16.0",
     "npm": "6.9.0"
-  }, 
+  },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "node server/index.js",
     "backend": "nodemon server/index.js",
     "frontend": "npm run start --prefix client",
@@ -31,6 +34,7 @@
   },
   "devDependencies": {
     "concurrently": "^4.1.0",
+    "gh-pages": "^3.1.0",
     "nodemon": "^1.19.1"
   }
 }
