@@ -1,5 +1,4 @@
 {
-  "homepage": "http://allenpan0215.github.io/DukeSpots",
   "name": "duke-spots",
   "version": "1.0.0",
   "description": "react project",
@@ -9,8 +8,6 @@
     "npm": "6.9.0"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "node server/index.js",
     "backend": "nodemon server/index.js",
     "frontend": "npm run start --prefix client",
