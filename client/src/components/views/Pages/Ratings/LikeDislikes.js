@@ -46,7 +46,7 @@ function LikeDislikes(props) {
             .then(response => {
                 console.log('getDislike',response.data)
                 if (response.data.success) {
-                    //How many likes does this video or comment have 
+                    //How many dislikes does this video or comment have 
                     setDislikes(response.data.dislikes.length)
 
                     //if I already click this like button or not 
@@ -77,8 +77,6 @@ function LikeDislikes(props) {
 
                         setLikes(Likes + 1)
                         setLikeAction('liked')
-
-                        //If dislike button is already clicked
 
                         if (DislikeAction !== null) {
                             setDislikeAction(null)

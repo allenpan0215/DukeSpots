@@ -1,11 +1,12 @@
 import React, { useState } from 'react'
 import { Button, Input, Typography, } from 'antd';
 import axios from 'axios';
+import './Comment.css';
 import { useSelector } from 'react-redux';
 import SingleComment from './SingleComment';
 import ReplyComment from './ReplyComment';
 const { TextArea } = Input;
-const { Title } = Typography;
+
 function Comments(props) {
     const user = useSelector(state => state.user)
     const [Comment, setComment] = useState("")
@@ -56,13 +57,13 @@ function Comments(props) {
             ))}
 
             {props.CommentLists && props.CommentLists.length === 0 &&
-                <div style={{ display: 'flex', justifyContent:'center', alignItems:'center', height:'200px'}} >
+                <div style={{ display: 'flex', justifyContent:'center', alignItems:'center', height:'100px'}} >
                     Be the first to share your thoughts about this location!
                 </div>
             }
 
             {/* Root Comment Form */}
-            <form style={{ display: 'flex' }} onSubmit={onSubmit}>
+            <form class = "comment-form"style={{ display: 'flex' }} onSubmit={onSubmit}>
                 <TextArea
                     style={{ width: '100%', borderRadius: '5px' }}
                     onChange={handleChange}

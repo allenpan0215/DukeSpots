@@ -10,34 +10,109 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-9.jpg'
-              text='The Fitzpatrick Center'
+              src='/images/FCIEMAS.jpg'
+              text='Fitzpatrick CIEMAS'
               path='/The-Fitzpatrick-Center'
             />
             <CardItem
-              src='images/img-2.jpg'
+              src='/images/Fleishman.jpg'
               text='Fleishman Common at the Sanford School of Public Policy'
               path='/Fleishman-Common'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-3.jpg'
+              src='/images/Lilly.jpg'
               text='Lilly Library'
-              path='/services'
+              path='/Lilly-Library'
             />
             <CardItem
-              src='images/img-4.jpg'
+              src='/images/VonderHeyden.jpg'
               text='Von der Heyden Pavilion'
-              path='/products'
+              path='/Von-der-Heyden'
             />
             </ul>
             <ul className='cards__items'>
             <CardItem
-              src='images/img-8.jpg'
-              text='The Edge at Bostock Lib'
-              path='/sign-up'
+              src='/images/TheEdge.jpg'
+              text='The Edge at Bostock Library'
+              path='/Bostock'
             />
+             <CardItem
+              src='/images/Perkins.jpg'
+              text='Perkins Library'
+              path='/Perkins'
+            />
+          </ul>
+          <ul className='cards__items'>
+            <CardItem
+              src='/images/Keohane.jpg'
+              text='Keohane Atrium'
+              path='/Keohane-Atrium'
+            />
+             <CardItem
+              src='/images/grainger.jpg'
+              text='Grainger Hall at The Nicholas School for the Environment'
+              path='/Grainger-Hall'
+            />
+          </ul>
+          <ul className='cards__items'>
+            <CardItem
+              src='/images/Wilkinson.jpg'
+              text='Wilkinson Building'
+              path='/Wilkinson'
+            />
+             <CardItem
+              src='/images/colab.jpg'
+              text='Innovation Co-Lab Studio at TEC'
+              path='/Innovation-CoLab'
+            />
+          </ul>
+          <ul className='cards__items'>
+            <CardItem
+              src='/images/Rubenstein.jpg'
+              text='Rubenstein Library'
+              path='/Rubenstein'
+            />
+             <CardItem
+              src='/images/Ruby.jpg'
+              text='The Ruby'
+              path='/Ruby'
+            />
+          </ul>
+          <ul className='cards__items'>
+            <CardItem
+              src='/images/InstituteBrain.jpg'
+              text='Institute for Brain Science'
+              path='/Institute-for-Brain-Science'
+            />
+             <CardItem
+              src='/images/Edens.jpg'
+              text='Edens 1C'
+              path='/Edens'
+            />
+            
+          </ul>
+          <ul className='cards__items'>
+            <CardItem
+              src='/images/McClendon.png'
+              text='McClendon Tower'
+              path='/McClendon'
+            />
+             <CardItem
+              src='/images/GrossHall.jpg'
+              text='Gross Hall'
+              path='/Gross-Hall'
+            />
+            
+          </ul>
+          <ul className='cards__items'>
+            <CardItem
+              src='/images/FFSC.jpg'
+              text='French Family Science Center'
+              path='/FFSC'
+            />
+            
           </ul>
         </div>
       </div>
